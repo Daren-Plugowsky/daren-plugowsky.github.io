@@ -21,18 +21,18 @@ function printDuties(date) {
     var who = whoIsOnDuty(date);
     var result = "";
     if (who === "Daren") {
-        result += "\n\n🟢 For doing the dishes, It's Daren's Turn<br>";
+        result += "\n🟢 For doing the dishes, It's Daren's Turn<br>";
         result += "⚪ For feeding the dog, It's Danika's Turn<br>";
         result += "⚪ For undoing the dishes, It's Jaden's Turn<br>";
     
     }
     else if (who === "Danika") {
-        result += "\n\n⚪ For undoing the dishes, It's Daren's Turn<br>";
+        result += "\n⚪ For undoing the dishes, It's Daren's Turn<br>";
         result += "🟢 For doing the dishes, It's Danika's Turn<br>";
         result += "⚪ For feeding the dog, It's Jaden's Turn<br>";
     }
     else if (who === "Jaden") {
-        result += "\n\n⚪ For feeding the dog, It's Daren's Turn<br>";
+        result += "\n⚪ For feeding the dog, It's Daren's Turn<br>";
         result += "⚪ For undoing the dishes, It's Danika's Turn<br>";
         result += "🟢 For doing the dishes, It's Jaden's Turn<br>";
     }
