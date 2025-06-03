@@ -14,9 +14,9 @@
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var date = new Date();
-      document.getElementById('current-date').textContent = "Today's Date: " + date.toLocaleDateString();
-      printDuties(date); 
+      new Date()
+      document.getElementById('current-date').textContent = "Today's Date: " + Date().toLocaleDateString();
+      printDuties(Date()); 
     });
   </script>
 </body>
