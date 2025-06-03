@@ -9,7 +9,14 @@
 <body>
   <h1>Who Da hell?</h1>
   <p id="result"></p>
-  <button onclick="printDuties(new Date())">Click for epicness</button>
+  
   <script src="script.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Ensure new Date() is passed if printDuties expects a date argument
+      printDuties(new Date()); 
+    });
+  </script>
 </body>
 </html>
